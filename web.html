@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #title {
+        background-color: rgb(175, 184, 191);
+        padding: 15%;
+        margin-right: 9%;
+        padding-bottom: 109%;
+    }
+    #i {
+
+        color:rgb(94, 87, 87);
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 3em;
+    }
+    #kai {
+        color:rgb(94, 87, 87);
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 1em;
+    }
+</style>
+<body>
+    <span>
+        <img src="EUCI-Renewable-Energy-Farm-scaled.jpg">
+    </span>
+    <h1 id="i">Sustainable<br>Transport</h1>
+    <span id="title">
+        <div id="kai">
+            <p>Turning CO2 emissions to organic carbon</p>
+        </span>
+    </span>
+    
+<p id="hi"></p>
+<button onclick="agree()">agree</button>
+<script>
+        let x = 0;
+        function agree() {
+            x++;
+            document.getElementById("hi").innerHTML = "poeple who agree = "+x;
+        };
+</script>
+</body>
+</html>
+
